@@ -30,7 +30,7 @@
                 </div>
                 <div class="mb-1">
                     <label for="birthday" class="form-label">Birthday</label>
-                    <input type="text"  name="birthday" class="form-control" id="birthday" placeholder="Enter your birthday" required>
+                    <input type="date"  name="birthday" class="form-control" id="birthday" placeholder="Enter your birthday" required>
                 </div>
                 <div class="mb-1">
                     <label for="address" class="form-label">Address</label>
