@@ -1,0 +1,179 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+}
+
+.nav-wrapper {
+    width: 400px !important; 
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    padding: 10px;
+    background-color: #001F3F;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+header {
+    background-color: #001F3F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+button.logout {
+    background-color: #001F3F;
+    color: white;
+    border: none;
+    border-radius: 50%;  
+    width: 50px;         
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;      /* Icon size */
+    transition: background-color 0.3s ease;
+}
+
+button.logout:hover {
+    background-color: #004080; 
+}
+
+button.logout i {
+    margin: 0;  
+}
+
+
+.flex-container {
+    display: flex;
+    height: 85vh;
+}
+
+
+.dashboard {
+    background: #E88D67;
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    width: 20%;
+}
+.nav-link {
+    color: white; /* Text color */
+    font-weight: 500;
+    transition: color 0.3s; /* Smooth color transition */
+}
+.nav-link:hover {
+    color: #001F3F;/* Change color on hover */
+}
+.nav-link i {
+    margin-right: 8px; /* Space between icon and text */
+}
+h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+
+.content {
+    display: flex;
+    width: 75%; 
+    height: 100%; 
+    background-color: white;
+    gap: 5%;
+    flex-direction: column;
+    padding: 2%;
+    align-items: center;
+}
+
+.pagination {
+    width: 90%;
+    height: 12%;
+    padding: 2%;
+}
+
+main {
+    width: 90%;
+    height: 80%;
+    background-color: E4E0E1;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+h2 {
+    color: #001F3F;
+    font-weight: 700;
+}
+
+h5 {
+    color:  #001F3F;
+}
+
+h3 {
+    color: #001F3F;
+}
+
+
+.nav{
+    font-size: 18px;
+    margin-bottom: 3px;
+    padding-left: 2px;
+}
+
+.nav:hover{
+    color: #E88D67;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+
+.card-text {
+    color: white;
+    font-size: 12px;
+}
+
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    color: #E88D67;
+}
+
+.glass-card {
+    background:  #E88D67;
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Border for glass look */
+    transition: transform 0.2s; /* Animation effect */
+}
+
+.glass-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+
+
